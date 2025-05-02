@@ -6,7 +6,7 @@ import seaborn as sns
 from matplotlib import gridspec
 
 # 📥 Load the dataset (Make sure the CSV file is in your directory)
-data = pd.read_csv(r"C:\Users\v.saketh\Downloads\creditcard.csv")  # Replace with the correct path if needed
+data = pd.read_csv("creditcard.csv")  # Replace with the correct path if needed
 
 # 👀 View first few rows
 print("📄 First few rows of the dataset:")
